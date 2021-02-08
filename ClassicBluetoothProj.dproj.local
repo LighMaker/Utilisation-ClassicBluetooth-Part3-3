@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/01/25 18:32:26.000.507,=D:\Téléchargements D\Embarcadero\Studio\PROJETS DELPHI\Unit1.pas</Transaction>
+    <Transaction>2021/01/25 18:50:47.000.837,=D:\Téléchargements D\Embarcadero\Studio\PROJETS DELPHI\Unit1.pas</Transaction>
+    <Transaction>2021/01/26 16:49:27.000.607,=D:\Téléchargements D\Embarcadero\Studio\PROJETS DELPHI\Unit1.pas</Transaction>
+    <Transaction>2021/01/26 16:50:12.000.696,D:\Téléchargements D\Embarcadero\Studio\PROJETS DELPHI\Unit1.fmx=D:\Téléchargements D\Embarcadero\Studio\PROJETS DELPHI\ClassicBluetooth\CLassicBluetoothPas.fmx</Transaction>
+    <Transaction>2021/01/26 16:50:12.000.696,D:\Téléchargements D\Embarcadero\Studio\PROJETS DELPHI\Unit1.pas=D:\Téléchargements D\Embarcadero\Studio\PROJETS DELPHI\ClassicBluetooth\CLassicBluetoothPas.pas</Transaction>
+    <Transaction>2021/01/26 16:50:24.000.776,D:\Téléchargements D\Embarcadero\Studio\PROJETS DELPHI\Project1.dproj=D:\Téléchargements D\Embarcadero\Studio\PROJETS DELPHI\ClassicBluetooth\ClassicBluetoothProj.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android="AHK0217330001350" Android64=""/>
+	</ActiveMobileDevice>
+</BorlandProject>

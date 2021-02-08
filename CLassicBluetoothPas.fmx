@@ -1,0 +1,99 @@
+object Form1: TForm1
+  Left = 690
+  Top = 180
+  Caption = 'Form1'
+  ClientHeight = 600
+  ClientWidth = 360
+  Position = Designed
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnShow = FormShow
+  Left = 690
+  Top = 180
+  DesignerMasterStyle = 0
+  object Memo1: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Align = Top
+    Size.Width = 360.000000000000000000
+    Size.Height = 209.000000000000000000
+    Size.PlatformDefault = False
+    Viewport.Width = 356.000000000000000000
+    Viewport.Height = 205.000000000000000000
+    object AniIndicator1: TAniIndicator
+      Align = Center
+      Visible = False
+    end
+  end
+  object BtnDecouverte: TButton
+    Align = Bottom
+    Position.Y = 544.000000000000000000
+    Size.Width = 360.000000000000000000
+    Size.Height = 56.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Lancer la d'#233'couverte des appareils'
+    OnClick = BtnDecouverteClick
+  end
+  object ComboBox1: TComboBox
+    Align = Top
+    Position.Y = 209.000000000000000000
+    Size.Width = 360.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object BtnAppareilsAssocies: TButton
+    Align = Bottom
+    Position.Y = 496.000000000000000000
+    Size.Width = 360.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Liste des Appareils associ'#233's'
+    OnClick = BtnAppareilsAssociesClick
+  end
+  object BtnAppairage: TButton
+    Align = Bottom
+    Position.Y = 456.000000000000000000
+    Size.Width = 360.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Appairer'
+    OnClick = BtnAppairageClick
+  end
+  object BtnDissocier: TButton
+    Align = Bottom
+    Position.Y = 416.000000000000000000
+    Size.Width = 360.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Dissocier l'#39'appareil'
+    OnClick = BtnDissocierClick
+  end
+  object BtnCreationServeur: TButton
+    Align = Bottom
+    Position.Y = 376.000000000000000000
+    Size.Width = 360.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Lancer le serveur'
+    OnClick = BtnCreationServeurClick
+  end
+  object EditMessage: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Align = Top
+    Position.Y = 241.000000000000000000
+    Size.Width = 360.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TextPrompt = 'Entrez ici le message '#224' envoyer'
+  end
+  object BtnEnvoieMessage: TButton
+    Align = Bottom
+    Position.Y = 344.000000000000000000
+    Size.Width = 360.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Envoyer Message'
+    OnClick = BtnEnvoieMessageClick
+  end
+end
